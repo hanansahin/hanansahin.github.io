@@ -61,6 +61,8 @@ h3{font:600 1.15rem/1.3 var(--sans);margin:0 0 .25rem}
 .proj{display:grid;gap:1.25rem}
 .card{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:1.4rem 1.5rem}
 .card p{margin:.4rem 0 .75rem}
+.card .feat{margin:.4rem 0 .75rem;padding-left:1.1rem}
+.card .feat li{margin-bottom:.25rem}
 .tags{color:var(--muted);font-size:.92rem;margin:0}
 .status{font-size:.85rem;font-weight:600;color:var(--accent)}
 .links{display:flex;gap:1.25rem;flex-wrap:wrap;margin:.25rem 0 .9rem;font-weight:600}
@@ -129,6 +131,21 @@ footer{padding:2.5rem 0 3rem;color:var(--muted);font-size:.95rem;border-top:1px 
     <div class="wrap">
       <h2>Projects</h2>
       <div class="proj">
+        <article class="card">
+          <h3>The Interpreter’s Dilemma</h3>
+          <span class="status">Live · Oct 2026 to present</span>
+          <p>A browser game that puts you in the interpreter’s seat during a Turkish–English business call. Drawing on my work interpreting for Islamic traditional arts programs, each scene tests a real decision: a specialist term, an idiom, a vague time, or a question that tests neutrality. After every choice, the game shows what the other person actually understood.</p>
+          <ul class="feat">
+            <li>Six scored scenes covering accuracy, terminology, neutrality, and transparency</li>
+            <li>A “meaning kept vs. lost” visualization and a trust meter</li>
+            <li>Turkish–English content, with interpretation in both directions</li>
+            <li>Light and dark themes, a responsive layout, and keyboard accessibility</li>
+          </ul>
+          <p class="links">
+            <a href="https://hanansahin.github.io/interpreters-dilemma/">Play the game</a>
+          </p>
+          <p class="tags">HTML, CSS, JavaScript, no dependencies</p>
+        </article>
         <article class="card">
           <h3>StudyBuddy</h3>
           <span class="status">In active development</span>
